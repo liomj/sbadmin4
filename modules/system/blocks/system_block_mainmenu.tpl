@@ -1,4 +1,3 @@
-
     <a class="nav-link<{if !$block.nothome|default:false}> active<{/if}>" href="<{xoAppUrl }>" title="<{$block.lang_home}>">
 	<div class="sb-nav-link-icon">&nbsp;<i class="fas fa-home"></i>&nbsp;<{$block.lang_home}></a> </div>
     <!-- start module menu loop -->

@@ -1,5 +1,18 @@
 <div id="layoutSidenav_nav">
     <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+
+			<{if $xoops_uname}>
+            <div class="clearfix">
+              <div class="profile_pic">
+                <img src="<{$xoops_avatar}>" alt="<{$xoops_uname}>" class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span><strong><{$smarty.const.THEME_WELCOME}></strong></span>
+                <div class="small"><{$xoops_uname}></div>
+              </div>
+            </div>
+			<{/if}>
+
         <{if $xoBlocks.canvas_left}>
         <div class="sb-sidenav-menu">
             <div class="nav text-justify px-2">

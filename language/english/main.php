@@ -30,7 +30,7 @@ define('THEME_CHANGEAVATAR', 'Change Avatar');
 define('THEME_CHANGEPASSWORD', 'Change Password');
 define('THEME_NOTIFICATION', 'Notification');
 define('THEME_ADMINPANEL', 'Site Administration');
-
+define('THEME_WELCOME', 'Welcome');
 
 
 //Slider
