@@ -28,10 +28,13 @@ define('THEME_MYPROFILE', 'My Profile');
 define('THEME_UPDATEPROFILE', 'Update Profile');
 define('THEME_CHANGEAVATAR', 'Change Avatar');
 define('THEME_CHANGEPASSWORD', 'Change Password');
-define('THEME_NOTIFICATION', 'Notification');
 define('THEME_ADMINPANEL', 'Site Administration');
 define('THEME_WELCOME', 'Welcome');
-define('THEME_TOTALPOST', 'Total Post');
+define('THEME_TOTALPOST', 'Posts');
+define('THEME_TOTALMEMBERS', 'Members');
+define('THEME_LATESTMEMBER', 'Latest Member');
+define('THEME_TOTALONLINE', 'Online');
+
 
 //Slider
 define('THEME_READMORE', 'Read More');
@@ -110,7 +113,6 @@ define('THEME_PERMISSIONS_LEGEND', 'Permissions &amp; Legend');
 
 define('THEME_INBOX_ALERT', 'PM Alert');
 define('THEME_INBOX_LINK', 'Click here to view your Inbox!');
-define('THEME_INBOX_MESSAGE', 'Message');
 
 define('THEME_EVENT_DOWNLOADS', 'Event Downloads');
 define('THEME_FILE_NAME', 'File');

@@ -2,12 +2,12 @@
     <form action="<{xoAppUrl user.php}>" method="post" role="form">
         <div class="form-group">
             <{$block.lang_username}>
-            <input class="form-control" type="text" name="uname" placeholder="<{$smarty.const.THEME_LOGIN}>">
+            <input class="form-control" type="text" name="uname" placeholder="<{$smarty.const.THEME_ACCOUNT_LOGIN}>" autocomplete="off" required>
         </div>
 
         <div class="form-group">
             <{$block.lang_password}>
-            <input class="form-control" type="password" name="pass" placeholder="<{$smarty.const.THEME_PASS}>">
+            <input class="form-control" type="password" name="pass" placeholder="<{$smarty.const.THEME_PASSWORD}>" autocomplete="off" required>
         </div>
 
         <div class="checkbox">
@@ -24,7 +24,6 @@
         <input type="submit" class="btn btn-primary btn-block btn-sm" value="<{$block.lang_login}>">
         <{$block.sslloginlink}>
     </form>
-    <a class="btn btn-info btn-xs btn-block" href="<{xoAppUrl user.php#lost}>" title="<{$block.lang_lostpass}>"><{$block.lang_lostpass}></a>
-
-    <a class="btn btn-info btn-xs btn-block" href="<{xoAppUrl register.php}>" title="<{$block.lang_registernow}>"><{$block.lang_registernow}></a>
+    <a class="btn btn-dark btn-block btn-sm" href="<{xoAppUrl user.php#lost}>" title="<{$block.lang_lostpass}>"><{$block.lang_lostpass}></a><br>
+    <a class="btn btn-secondary btn-block btn-sm" href="<{xoAppUrl register.php}>" title="<{$block.lang_registernow}>"><{$block.lang_registernow}></a>
 </div>

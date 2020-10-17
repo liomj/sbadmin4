@@ -23,13 +23,13 @@
 			<{/if}>
                 <a class="dropdown-item" href="<{$xoops_url}>/user.php"><{$smarty.const.THEME_MYPROFILE}></a>
                 <a class="dropdown-item" href="<{$xoops_url}>/edituser.php"><{$smarty.const.THEME_UPDATEPROFILE}></a>
-				<a class="dropdown-item" href="<{$xoops_url}>/notifications.php"><{$smarty.const.THEME_NOTIFICATION}></a>
+				<a class="dropdown-item" href="<{$xoops_url}>/notifications.php"><{$smarty.const.THEME_ACCOUNT_NOTIFICATIONS}></a>
 				<{xoInboxCount assign='unread_count'}>
 				<{if $unread_count > 0}>
-				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_INBOX_MESSAGE}>
+				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_ACCOUNT_MESSAGES}>
                     <span class="badge badge-primary badge-pill"><{$unread_count}></span></a>
 				<{else}>
-				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_INBOX_MESSAGE}></a>
+				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_ACCOUNT_MESSAGES}></a>
 				<{/if}>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="<{$xoops_url}>/user.php?op=logout"><{$smarty.const.THEME_ACCOUNT_LOGOUT}></a>
