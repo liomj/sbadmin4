@@ -18,7 +18,7 @@
             <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
 			<{if $xoops_isadmin}>
-                <a class="dropdown-item" href="<{$xoops_url}>/admin.php"><{$smarty.const.THEME_ADMINPANEL}></a>
+                <a class="dropdown-item" href="<{$xoops_url}>/admin.php" target="_blank"><{$smarty.const.THEME_ADMINPANEL}></a>
 				<div class="dropdown-divider"></div>
 			<{/if}>
                 <a class="dropdown-item" href="<{$xoops_url}>/user.php"><{$smarty.const.THEME_MYPROFILE}></a>
