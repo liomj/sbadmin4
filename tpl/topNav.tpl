@@ -11,16 +11,30 @@
             </div>
         </div>
     </form>
+	<{if $xoops_uname}>
     <!-- Navbar-->
     <ul class="navbar-nav ml-auto ml-md-0">
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">Settings</a>
-                <a class="dropdown-item" href="#">Activity Log</a>
+			<{if $xoops_isadmin}>
+                <a class="dropdown-item" href="<{$xoops_url}>/admin.php"><{$smarty.const.THEME_ADMINPANEL}></a>
+				<div class="dropdown-divider"></div>
+			<{/if}>
+                <a class="dropdown-item" href="<{$xoops_url}>/user.php"><{$smarty.const.THEME_MYPROFILE}></a>
+                <a class="dropdown-item" href="<{$xoops_url}>/edituser.php"><{$smarty.const.THEME_UPDATEPROFILE}></a>
+				<a class="dropdown-item" href="<{$xoops_url}>/notifications.php"><{$smarty.const.THEME_NOTIFICATION}></a>
+				<{xoInboxCount assign='unread_count'}>
+				<{if $unread_count > 0}>
+				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_INBOX_MESSAGE}>
+                    <span class="badge badge-primary badge-pill"><{$unread_count}></span></a>
+				<{else}>
+				<a class="dropdown-item" href="<{xoAppUrl viewpmsg.php}>"><{$smarty.const.THEME_INBOX_MESSAGE}></a>
+				<{/if}>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="<{$xoops_url}>/user.php?op=logout"><{$smarty.const.THEME_ACCOUNT_LOGOUT}></a>
             </div>
         </li>
     </ul>
+	<{/if}>
 </nav>

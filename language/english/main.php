@@ -22,12 +22,24 @@ define('THEME_ACCOUNT_NOTIFICATIONS', 'Notifications');
 define('THEME_ACCOUNT_REGISTER', 'Sign Up');
 define('THEME_ACCOUNT_TOOLBAR', 'Toolbar');
 
+//User
+define('THEME_LOGGEDINAS', 'Logged in as');
+define('THEME_MYPROFILE', 'My Profile');
+define('THEME_UPDATEPROFILE', 'Update Profile');
+define('THEME_CHANGEAVATAR', 'Change Avatar');
+define('THEME_CHANGEPASSWORD', 'Change Password');
+define('THEME_NOTIFICATION', 'Notification');
+define('THEME_ADMINPANEL', 'Site Administration');
+
+
+
 //Slider
 define('THEME_READMORE', 'Read More');
 
 //Home Message
 define('THEME_ABOUTUS', 'About Us');
 define('THEME_LEARNMORE', 'Learn More...');
+
 
 //NewBB
 define('THEME_NEWBB_TOPIC', 'Toggle');
@@ -97,6 +109,7 @@ define('THEME_PERMISSIONS_LEGEND', 'Permissions &amp; Legend');
 
 define('THEME_INBOX_ALERT', 'PM Alert');
 define('THEME_INBOX_LINK', 'Click here to view your Inbox!');
+define('THEME_INBOX_MESSAGE', 'Message');
 
 define('THEME_EVENT_DOWNLOADS', 'Event Downloads');
 define('THEME_FILE_NAME', 'File');
