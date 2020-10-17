@@ -1,3 +1,5 @@
+SB Admin template ported to work with XOOPS CMS as a frontend theme
+
 # [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/)
 
 [SB Admin](https://startbootstrap.com/templates/sb-admin/) is an open source, admin dashboard template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
