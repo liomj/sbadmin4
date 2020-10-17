@@ -2,16 +2,19 @@
 <html lang="en">
     <head>
         <{assign var=theme_name value=$xoTheme->folderName}>
-        <meta charset="utf-8" />
+		<meta charset="<{$xoops_charset}>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="<{$xoops_meta_description}>" />
-        <meta name="author" content="XOOPS" />
+		<meta name="keywords" content="<{$xoops_meta_keywords}>">
+		<meta name="description" content="<{$xoops_meta_description}>">
+		<meta name="robots" content="<{$xoops_meta_robots}>">
+		<meta name="rating" content="<{$xoops_meta_rating}>">
+		<meta name="author" content="<{$xoops_meta_author}>">
+		<meta name="generator" content="XOOPS">
         <link rel="alternate" type="application/rss+xml" title="" href="<{xoAppUrl backend.php}>" />
         <link href="<{$xoops_url}>/favicon.ico" rel="shortcut icon" />
         <title><{if $xoops_dirname == "system"}><{$xoops_sitename}><{if $xoops_pagetitle !=''}> - <{$xoops_pagetitle}><{/if}><{else}><{if $xoops_pagetitle !=''}><{$xoops_pagetitle}> - <{$xoops_sitename}><{/if}><{/if}></title>
         <link href="<{xoImgUrl}>/dist/css/styles.css" rel="stylesheet" />
-        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <{$xoops_module_header}>
     </head>

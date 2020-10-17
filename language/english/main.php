@@ -45,9 +45,10 @@ define('THEME_FORUM_REPLY', 'Reply');
 define('THEME_ADD_POLL', 'Add Poll');
 
 //Block login
-define('THEME_LOGIN', 'Your Username');
-define('THEME_PASS', 'Your Password');
+define('THEME_USERNAME', 'Username');
+define('THEME_PASSWORD', 'Password');
 define('THEME_EMAIL', 'Your Email');
+define('THEME_REMEMBERME', 'Remember Me');
 
 //Cookie consent -- escape for javascript if needed
 define('THEME_COOKIE_MESSAGE', 'This website uses cookies to ensure you get the best experience on our website');
