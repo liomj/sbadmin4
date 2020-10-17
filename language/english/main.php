@@ -31,7 +31,7 @@ define('THEME_CHANGEPASSWORD', 'Change Password');
 define('THEME_NOTIFICATION', 'Notification');
 define('THEME_ADMINPANEL', 'Site Administration');
 define('THEME_WELCOME', 'Welcome');
-
+define('THEME_TOTALPOST', 'Total Post');
 
 //Slider
 define('THEME_READMORE', 'Read More');
@@ -39,6 +39,7 @@ define('THEME_READMORE', 'Read More');
 //Home Message
 define('THEME_ABOUTUS', 'About Us');
 define('THEME_LEARNMORE', 'Learn More...');
+define('THEME_DASHBOARD', 'Dashboard');
 
 
 //NewBB
