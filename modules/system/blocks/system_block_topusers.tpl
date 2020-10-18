@@ -1,20 +1,12 @@
-<{foreach item=user from=$block.users}>
-    <ul class="userblock list-unstyled p-2">
+	<div class="row row-cols-5">
+			<{foreach item=user from=$block.users}>
+               <div class="col text-center p-2">
+					<{if $user.avatar != ""}>
+						<span class="badge badge-info"><{$user.rank}> | <{$user.posts}></span> <a href='<{$xoops_url}>/userinfo.php?uid=<{$user.id}>' target='_blank'><span class="notify-badge"></span><img src="<{$user.avatar}>" title="<{$user.name}>" alt="<{$user.name}>" class='rounded-circle' border='0' height='48' width='48' title="<{$user.name}>">  </a>
+					<{else}>
+						<span class="badge badge-info"><{$user.rank}> | <{$user.posts}></span> <a href='<{$xoops_url}>/userinfo.php?uid=<{$user.id}>' target='_blank'><span class="notify-badge"></span><img src="<{$xoops_url}>/images/blank.gif" title="<{$user.name}>" alt="<{$user.name}>" class='rounded-circle' border='0' height='48' width='48' title="<{$user.name}>">  </a>
+					<{/if}>
+                </div>
+            <{/foreach}>
+	</div>
 
-        <{if $user.avatar != ""}>
-            <li class="avatar-image">
-                <img src="<{$user.avatar}>" alt="<{$user.name}>" title="<{$user.name}>" class="rounded-circle">
-                <span class="badge float-right"><{$user.rank}></span>
-            </li>
-        <{else}>
-            <li class="avatar-image">
-                <img src="<{$xoops_imageurl}>images/blank.gif" title="<{$user.name}>" alt="<{$user.name}>" class="rounded-circle">
-                <span class="badge float-right"><{$user.rank}></span>
-            </li>
-        <{/if}>
-
-        <li class="user-name"><a href="<{$xoops_url}>/userinfo.php?uid=<{$user.id}>" title="<{$user.name}>"><{$user.name}></a></li>
-
-        <li class="text-right text-muted"><small><{$user.posts}></small></li>
-    </ul>
-<{/foreach}>

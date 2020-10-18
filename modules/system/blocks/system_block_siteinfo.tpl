@@ -1,35 +1,31 @@
-<table class="table">
 
+	
     <{if $block.showgroups == true}>
-
+	<div class="row p-2">
+		<span class='btn btn-sm btn-light btn-block text-muted'><strong><i class='fa fa-user-circle'></i>&nbsp; <{$smarty.const.THEME_SITEADMIN}></strong></span>
+	</div>
+		<div class="row row-cols p-2">
         <!-- start group loop -->
         <{foreach item=group from=$block.groups}>
-			<thead class="thead-light text-center">
-            <tr>
-                <th><{$group.name}></th>
-            </tr>
-			</thead>
+			
             <!-- start group member loop -->
             <{foreach item=user from=$group.users}>
-                <tr>
-                    <td class="text-center">
-                        <img style="width:80px;" src="<{$user.avatar}>" alt="<{$user.name}>" title="<{$user.name}>" class="img-fluid rounded-circle"/><br>
-                        <small><a href="<{$xoops_url}>/userinfo.php?uid=<{$user.id}>" title="<{$user.name}>"><{$user.name}></a>
-                        <a href="javascript:openWithSelfMain('<{$xoops_url}>/pmlite.php?send2=1&to_userid=<{$user.id}>','pmlite',565,500);"></small>
-                        &nbsp;<span class="fa fa-envelope" aria-hidden="true"></span>
-                        </a>
-                    </td>
-                </tr>
+
+				<div class="col">
+					<{if $user.avatar != ""}>
+						<a href='<{$xoops_url}>/userinfo.php?uid=<{$user.id}>' target='_blank'><img src="<{$user.avatar}>" title="<{$user.name}>" alt="<{$user.name}>" class='rounded-circle' border='0' height='48' width='48' title="<{$user.name}> | <{$user.joindate}>"></a>
+					<{else}>
+						<a href='<{$xoops_url}>/userinfo.php?uid=<{$user.id}>' target='_blank'><img src="<{$xoops_url}>/images/blank.gif" title="<{$user.name}>" alt="<{$user.name}>" class='rounded-circle' border='0' height='48' width='48' title="<{$user.name}> | <{$user.joindate}>"></a>
+					<{/if}>
+                </div>
+           
             <{/foreach}>
             <!-- end group member loop -->
 
         <{/foreach}>
         <!-- end group loop -->
-    <{/if}>
-</table>
+		</div>
+	<{/if}>
 
-<br>
 
-<div class='text-center'>
-    <img src="<{$block.logourl}>" alt=""/><br><{$block.recommendlink}>
-</div>
+

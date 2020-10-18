@@ -10,7 +10,7 @@
 
             <span class="input-group-btn">
 
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-secondary" type="submit">
 
                     <span class="fa fa-search"></span>
 

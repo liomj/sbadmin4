@@ -120,3 +120,4 @@ define('THEME_FILE_SIZE', 'Size');
 
 define('THEME_CONTROL_NEXT', 'Next');
 define('THEME_CONTROL_PREVIOUS', 'Previous');
+define('THEME_SITEADMIN', 'Site Admin');
