@@ -27,6 +27,7 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 	
 	a. Alt Title -> Header 
 	- If you want to add a menu header else leave it empty 
+	
 	b. Menu Image - > fa fa-star
 	- You can use any of your favorite Font Awesome Icon. Leave it empty if you want to use the default defined icon
 
