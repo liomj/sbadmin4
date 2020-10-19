@@ -1,7 +1,7 @@
 <div id="layoutSidenav_nav">
     <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
 
-			<{if $xoops_uname}>
+			<{if $xoops_isuser}>
             <div class="clearfix">
               <div class="profile_pic">
                 <img src="<{$xoops_avatar}>" alt="<{$xoops_uname}>" class="img-circle profile_img">
@@ -68,7 +68,7 @@
         </div>
         <{/if}>
 
-		<{if $xoops_uname}>
+		<{if $xoops_isuser}>
         <div class="sb-sidenav-footer">
             <div class="small"><{$smarty.const.THEME_LOGGEDINAS}></div>
             <{$xoops_uname}>
