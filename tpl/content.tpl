@@ -1,43 +1,44 @@
 <main>
 			<{if $xoops_page == "index"}>
+			<{xoStats}>
 			<div class="container-fluid">
                         <h1 class="mt-4"><{$smarty.const.THEME_DASHBOARD}></h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active"><{$smarty.const.THEME_DASHBOARD}></li>
+                            <li class="breadcrumb-item active"><i class="fas fa-tachometer-alt fa-2x"></i>&nbsp; <{$smarty.const.THEME_DASHBOARD}></li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-primary text-white mb-4">
-                                    <div class="card-body"><{$smarty.const.THEME_TOTALMEMBERS}></div>
+                                    <div class="card-body"><i class="fa fa-user-circle fa-2x"></i>&nbsp;<b><{$smarty.const.THEME_TOTALMEMBERS}></b></div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">1452</a>
+                                        <a class="small text-white stretched-link" href="#"><h4><{$totaluser}></h4></a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-warning text-white mb-4">
-                                    <div class="card-body"><{$smarty.const.THEME_LATESTMEMBER}></div>
+                                    <div class="card-body"><i class="fa fa-user-plus fa-2x"></i>&nbsp;<b><{$smarty.const.THEME_REGISTERTODAY}></b></div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">Jonathan</a>
+                                        <a class="small text-white stretched-link" href="#"><h4><{$totalregisteredtoday}></h4></a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-success text-white mb-4">
-                                    <div class="card-body"><{$smarty.const.THEME_TOTALPOST}></div>
+                                    <div class="card-body"><i class="fa fa-sticky-note fa-2x"></i>&nbsp;<b><{$smarty.const.THEME_TOTALPOST}></b></div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">142</a>
+                                        <a class="small text-white stretched-link" href="#"><h4><{$totalpost}></h4></a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-danger text-white mb-4">
-                                    <div class="card-body"><{$smarty.const.THEME_TOTALONLINE}></div>
+                                    <div class="card-body"><i class="fa fa-globe fa-2x"></i>&nbsp;<b><{$smarty.const.THEME_TOTALONLINE}></b></div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">11</a>
+                                        <a class="small text-white stretched-link" href="#"><h4><{$totalonline}></h4></a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>

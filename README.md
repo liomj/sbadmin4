@@ -1,28 +1,44 @@
-SB Admin template by Start Bootstrap ported to work with XOOPS CMS as a frontend theme
+SBAdmin template by [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/) ported to work with [XOOPS CMS - SB Admin](https://www.xoops.org/) as a frontend theme
 
-# [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/)
+## Features
+A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in building intranet, web apps and dashboards
 
-[SB Admin](https://startbootstrap.com/templates/sb-admin/) is an open source, admin dashboard template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+- Closed Site Template (For Intranet Website)
+- Support for XOOPS myMenus Module
+- SCSS based theme with built in scripts for compiling Pug and CSS
+- A flexbox based layout with fixed and static navigation options
+- Toggleable sidebar menu with intuitive toggled states
+- Custom panel styling
 
+## Installation
+
+1. To download from GitHub, you should navigate to the top level of the project and then a green "Code" download button will be visible on the right. 
+2. Choose the Download ZIP option from the Code pull-down menu. That ZIP file will contain the entire theme
+3. Your download may have a folder inside a folder when you uncompress the files (eg: sbadmin-main\sbadmin-main)
+4. Rename the subfolder sbadmin-main to sbadmin and move it to your XOOPS themes folder www.yoursite.com/themes/
+5. Go to System Admin->Preferences-> System Options -> General Settings, and make sbadmin as your Default Theme. 
+
+## Menu Control (Support for MyMenus Module)
+
+1. If you do not have My Menus modules installed, the default navigation will be displayed.
+2. If you installed My Menus, create a menu in Menus Manager
+3. Add Link your menu in Links Manager
+4. In Links Manager, use the following 
+	a. Alt Title -> Header
+	* If you want to add a menu header else leave it empty 
+	b. Menu Image - > fa fa-star
+	* That is just an example. You can use any of your favorite Font Awesome Icon. Leave it empty if you want to use the default definded icon
+
+3. Activate the My menu Block 
+4. In the block settings, use the following:
+	a. Use skin from theme —> Yes
+	b. Display Method —> Assign to template
+	c. Unique ID —> sbadmin
+	d. The above is the recommended by My Menu module. After the settings, you can control the site menu using My Menu module.
+	e. The Menu is displayed in the Left Block
+
+	
 ## Preview
 
 [![SB Admin Preview](https://startbootstrap.com/assets/img/screenshots/templates/sb-admin.png)](https://startbootstrap.github.io/startbootstrap-sb-admin/)
 
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerskt>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/gh-pages/LICENSE) license.

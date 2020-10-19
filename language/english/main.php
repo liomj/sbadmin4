@@ -5,12 +5,19 @@ define('THEME_CLOSE', 'Close');
 
 //Nav Menu
 define('THEME_HOME', 'Home');
-define('THEME_MODULE1', 'About');
-define('THEME_MODULE2', 'News');
-define('THEME_MODULE3', 'Forum');
-define('THEME_MODULE4', 'Contact');
+define('THEME_MENU', 'Menu');
+define('THEME_SUBMENU', 'Sub Menu');
+define('THEME_MENU1', 'About Us');
+define('THEME_MENU2', 'Module');
+define('THEME_MENU3', 'Photo Album');
+define('THEME_MENU4', 'Contact Us');
+define('THEME_MENU5', 'News');
+define('THEME_MENU6', 'Message Board');
 define('THEME_SEARCH_TEXT', 'Search');
 define('THEME_SEARCH_BUTTON', 'Go');
+
+define('THEME_PRIVACYPOLICY', 'Privacy Policy');
+define('THEME_TERMS', 'Terms &amp; Conditions');
 
 //Account tab
 define('THEME_ACCOUNT', 'Account');
@@ -34,7 +41,7 @@ define('THEME_TOTALPOST', 'Posts');
 define('THEME_TOTALMEMBERS', 'Members');
 define('THEME_LATESTMEMBER', 'Latest Member');
 define('THEME_TOTALONLINE', 'Online');
-
+define('THEME_REGISTERTODAY', 'Register Today');
 
 //Slider
 define('THEME_READMORE', 'Read More');

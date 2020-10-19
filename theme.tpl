@@ -30,9 +30,9 @@
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted"><{$xoops_footer}></div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#"><{$smarty.const.THEME_PRIVACYPOLICY}></a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="#"><{$smarty.const.THEME_TERMS}></a>
                             </div>
                         </div>
                     </div>
