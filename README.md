@@ -22,12 +22,13 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 
 1. If you do not have My Menus modules installed, the default navigation will be displayed.
 2. If you installed My Menus, create a menu in Menus Manager
-3. Add Link your menu in Links Manager
+3. Add Link to your menu in Links Manager
 4. In Links Manager, use the following 
-	a. Alt Title -> Header
-	* If you want to add a menu header else leave it empty 
+	
+	a. Alt Title -> Header 
+	- If you want to add a menu header else leave it empty 
 	b. Menu Image - > fa fa-star
-	* That is just an example. You can use any of your favorite Font Awesome Icon. Leave it empty if you want to use the default definded icon
+	- You can use any of your favorite Font Awesome Icon. Leave it empty if you want to use the default defined icon
 
 3. Activate the My menu Block 
 4. In the block settings, use the following:
