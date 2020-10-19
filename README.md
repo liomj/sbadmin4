@@ -32,10 +32,15 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 
 3. Activate the My menu Block 
 4. In the block settings, use the following:
+
 	a. Use skin from theme —> Yes
+	
 	b. Display Method —> Assign to template
+	
 	c. Unique ID —> sbadmin
+	
 	d. The above is the recommended by My Menu module. After the settings, you can control the site menu using My Menu module.
+	
 	e. The Menu is displayed in the Left Block
 
 	
