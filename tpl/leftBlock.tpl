@@ -13,7 +13,7 @@
             </div>
 			<{/if}>
 
-        <{if $xoBlocks.canvas_left}>
+        
         <div class="sb-sidenav-menu">
             <div class="nav text-justify px-2">
 			
@@ -60,7 +60,7 @@
 				</a>
 
 				<{/if}>
-
+        <{if $xoBlocks.canvas_left}>
                 <{foreach item=block from=$xoBlocks.canvas_left}> <{if $block.title}>
                 <div class="sb-sidenav-menu-heading"><{$block.title}></div>
                 <{/if}> <{$block.content}> <{/foreach}>
