@@ -20,18 +20,20 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 
 ## Menu Control (Support for MyMenus Module)
 
-1. If you do not have My Menus modules installed, the default navigation will be displayed.
-2. If you installed My Menus, create a menu in Menus Manager
-3. Add Link to your menu in Links Manager
-4. In Links Manager, use the following 
+1. If you already installed the MyMenus Module, create a menu in Menus Manager
+2. Add Link to your menu in Links Manager
+3. In Links Manager, use the following 
 	
 	a. Alt Title -> Header 
+	
 	:: If you want to add a menu header else leave it empty 
+	
 	b. Menu Image - > fa fa-star
+	
 	::  You can use any of your favorite Font Awesome Icon. Leave it empty if you want to use the default defined icon
 
-3. Activate the My menu Block 
-4. In the block settings, use the following:
+4. Activate the My menu Block 
+5. In the block settings, use the following:
 
 	a. Use skin from theme —> Yes
 	
@@ -43,6 +45,7 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 	
 	e. The Menu is displayed in the Left Block
 
+6. If you do not have My Menus modules installed, the default navigation will be displayed.
 	
 ## Preview
 
