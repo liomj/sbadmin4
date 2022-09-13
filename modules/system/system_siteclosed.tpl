@@ -56,6 +56,9 @@
 												 <button type="submit" class="btn btn-primary">
 													<{$lang_login}>
 												</button>
+												<{if $redirect_message|default:false}>
+													<p class="text-danger"><{$redirect_message}></p>
+												<{/if}>
                                             </div>
                                         </form>
                                     </div>
