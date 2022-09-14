@@ -8,7 +8,11 @@
               </div>
               <div class="profile_info">
                 <span><strong><{$smarty.const.THEME_WELCOME}></strong></span>
-                <div class="small"><{$xoops_uname}></div>
+				<{if $xoops_name}>
+                 <div class="small"><{$xoops_name}></div>
+				<{else}>
+				 <div class="small"><{$xoops_uname}></div>
+				<{/if}>	
               </div>
             </div>
 			<{/if}>
@@ -71,7 +75,11 @@
 		<{if $xoops_isuser}>
         <div class="sb-sidenav-footer">
             <div class="small"><{$smarty.const.THEME_LOGGEDINAS}></div>
-            <{$xoops_uname}>
+            <{if $xoops_name}>
+               <{$xoops_name}>
+			<{else}>
+			   <{$xoops_uname}>
+			<{/if}>	
         </div>
 		<{/if}>
     </nav>

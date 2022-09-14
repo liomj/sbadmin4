@@ -2,7 +2,7 @@
             <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl admin.php}>" title="<{$block.lang_adminmenu}>"><div class="sb-nav-link-icon"><i class="fa fa-wrench"></i></div><{$block.lang_adminmenu}></a>
             <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl user.php}>" title="<{$block.lang_youraccount}>"><div class="sb-nav-link-icon"><i class="fa fa-user-circle"></i></div><{$block.lang_youraccount}></a>
         <{else}>
-            <a class="nav-link" href="<{xoAppUrl user.php}>" title="<{$block.lang_youraccount}>"><div class="sb-nav-link-icon"><i class="fa fa-user-o"></i></div><{$block.lang_youraccount}></a> 
+            <a class="nav-link" href="<{xoAppUrl user.php}>" title="<{$block.lang_youraccount}>"><div class="sb-nav-link-icon"><i class="fa fa-user-circle"></i></div><{$block.lang_youraccount}></a> 
         <{/if}>
         <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl edituser.php}>" title="<{$block.lang_editaccount}>"><div class="sb-nav-link-icon"><i class="fa fa-edit"></i></div><{$block.lang_editaccount}></a>
         <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl notifications.php}>" title="<{$block.lang_notifications}>"><div class="sb-nav-link-icon"><i class="fa fa-info-circle"></i></div><{$block.lang_notifications}></a>
