@@ -86,3 +86,49 @@ div.jGrowl div.jGrowl-closer {
     font-weight: bold;
     text-align: center;
 }
+
+/* Site Close */
+
+.site-closed-body {
+	background: url(images/background-site-closed.jpg) top center no-repeat fixed;
+}
+
+
+/* User Welcome Left Block */
+
+.profile_info {
+    padding: 25px 10px 10px;
+    width: 65%;
+    float: left;
+}
+
+.img-circle.profile_img {
+    width: 70%;
+    background: #fff;
+    margin-left: 15%;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 20px;
+    border: 1px solid rgba(52,73,94,0.44);
+    padding: 4px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.profile_pic {
+    width: 35%;
+    float: left;
+}
+
+.clearfix:after, form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}

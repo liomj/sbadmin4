@@ -15,8 +15,7 @@
         <link href="<{$xoops_url}>/favicon.ico" rel="shortcut icon" />
         <title><{if $xoops_dirname == "system"}><{$xoops_sitename}><{if $xoops_pagetitle !=''}> - <{$xoops_pagetitle}><{/if}><{else}><{if $xoops_pagetitle !=''}><{$xoops_pagetitle}> - <{$xoops_sitename}><{/if}><{/if}></title>
         <link href="<{xoImgUrl}>dist/css/styles.css" rel="stylesheet" />
-		<link href="<{xoImgUrl}>dist/css/xoops.css" rel="stylesheet" />
-		<link href="<{xoImgUrl}>extra.css" rel="stylesheet">
+		<link href="<{xoImgUrl}>xoops.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <{$xoops_module_header}>
     </head>

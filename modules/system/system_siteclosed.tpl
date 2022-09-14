@@ -15,11 +15,12 @@
         <link href="<{$xoops_url}>/favicon.ico" rel="shortcut icon" />
         <title><{if $xoops_dirname == "system"}><{$xoops_sitename}><{if $xoops_pagetitle !=''}> - <{$xoops_pagetitle}><{/if}><{else}><{if $xoops_pagetitle !=''}><{$xoops_pagetitle}> - <{$xoops_sitename}><{/if}><{/if}></title>
         <link href="<{xoImgUrl}>/dist/css/styles.css" rel="stylesheet" />
+		<link href="<{xoImgUrl}>xoops.css" rel="stylesheet" />
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <{$xoops_module_header}>
     </head>
-    <body class="bg-primary">
+    <body class="site-closed-body">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -35,7 +36,7 @@
                                     <div class="card-body">
                                         <form action="<{xoAppUrl user.php}>" method="post" role="form">
                                             <div class="form-group">
-                                                <label class="small mb-1" for="inputUsername"><{$lang_username}></label>
+                                                <label class="small mb-1" for="inputUsername"><{$smarty.const.THEME_USERNAME}></label>
                                                 <input class="form-control py-4" type="text" name="uname" placeholder="<{$smarty.const.THEME_USERNAME}>" autocomplete="off" required/>
                                             </div>
                                             <div class="form-group">
@@ -54,7 +55,7 @@
 											<input type="hidden" name="op" value="login" />
                                                 <!--<a class="small" href="password.html">Forgot Password?</a>-->
 												 <button type="submit" class="btn btn-primary">
-													<{$lang_login}>
+													<{$smarty.const.THEME_ACCOUNT_LOGIN}>
 												</button>
 												<{if $redirect_message|default:false}>
 													<p class="text-danger"><{$redirect_message}></p>
