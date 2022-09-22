@@ -5,7 +5,7 @@
 	 <!-- Navbar Search-->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0" role="search" action="<{xoAppUrl search.php}>" method="get">
         <div class="input-group">
-            <input class="form-control" type="text" placeholder="<{$smarty.const.THEME_SEARCH_TEXT}>" aria-label="Search" aria-describedby="basic-addon2" />
+            <input class="form-control" type="text" name="query"  placeholder="<{$smarty.const.THEME_SEARCH_TEXT}>" aria-label="Search" aria-describedby="basic-addon2" />
 			 <input type="hidden" name="action" value="results">
             <div class="input-group-append">
                 <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
