@@ -1,4 +1,4 @@
-SBAdmin template by [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/) ported to work and powered with [XOOPS CMS](https://www.xoops.org/) as a frontend theme
+SBAdmin Bootstrap 4 template by [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/) ported to work and powered with [XOOPS CMS](https://www.xoops.org/) as a frontend theme
 
 ## Features
 A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in building intranet, web apps and dashboards
