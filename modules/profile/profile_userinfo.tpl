@@ -6,7 +6,7 @@
         <{/if}>
         <div class="aligncenter">
             <ul class="list-unstyled">
-                <li><span class="label label-info"><{$uname}></span></li>
+                <li><h2><span class="label label-info"><{$uname}></span></h2></li>
                 <{if $email}>
                     <li><span class="label label-info"><{$email}></span></li>
                 <{/if}>

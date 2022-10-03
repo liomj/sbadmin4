@@ -42,6 +42,7 @@ define('THEME_TOTALMEMBERS', 'Members');
 define('THEME_LATESTMEMBER', 'Latest Member');
 define('THEME_TOTALONLINE', 'Online');
 define('THEME_REGISTERTODAY', 'Register Today');
+define('THEME_REGISTERYESTERDAY', 'Register Yeserday');
 
 //Slider
 define('THEME_READMORE', 'Read More');
