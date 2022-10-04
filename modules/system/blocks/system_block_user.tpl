@@ -8,8 +8,7 @@
         <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl notifications.php}>" title="<{$block.lang_notifications}>"><div class="sb-nav-link-icon"><i class="fa fa-info-circle"></i></div><{$block.lang_notifications}></a>
         <{xoInboxCount assign='unread_count'}>
         <{if $unread_count > 0}>
-            <a class="nav-link info" href="<{xoAppUrl viewpmsg.php}>" title="<{$block.lang_inbox}>"><div class="sb-nav-link-icon"><i class="fa fa-envelope"></i></div><{$block.lang_inbox}>
-                    <i class="badge badge-primary badge-pill"><{$unread_count}></i></div></a>
+            <a class="nav-link info" href="<{xoAppUrl viewpmsg.php}>" title="<{$block.lang_inbox}>"><div class="sb-nav-link-icon"><i class="fa fa-envelope"></i></div><{$block.lang_inbox}>&nbsp;<i class="badge badge-primary badge-pill"><{$unread_count}></i> </a>
         <{else}>
             <a class="nav-link<{if $module.highlight|default:false}> active<{/if}>" href="<{xoAppUrl viewpmsg.php}>" title="<{$block.lang_inbox}>"><div class="sb-nav-link-icon"><i class="fa fa-envelope-open"></i></div><{$block.lang_inbox}></a>
         <{/if}>
