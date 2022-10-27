@@ -4,7 +4,11 @@
 			<{if $xoops_isuser}>
             <div class="clearfix">
               <div class="profile_pic">
-                <img src="<{$xoops_avatar}>" alt="<{$xoops_uname}>" class="img-circle profile_img">
+			 <{if $xoops_avatar=='avatars/blank.gif'}>
+                <img src="<{$xoops_avatar}>" alt="<{$xoops_uname}>" title="<{$xoops_uname}>" class="img-circle profile_img">
+			 <{else}>
+				<div class="profile_info"><span class="i-circle" title="<{$xoops_uname}>"><{$xoops_uname|substr:0:1 eq 'm'}></span></div>
+			 <{/if}>
               </div>
               <div class="profile_info">
                 <span><strong><{$smarty.const.THEME_WELCOME}></strong></span>
