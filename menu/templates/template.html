@@ -1,12 +1,13 @@
     <a class="nav-link<{if !$menu.selected|default:false}> active<{/if}>" href="<{xoAppUrl }>" title="<{$smarty.const.THEME_HOME}>">
 	<div class="sb-nav-link-icon">&nbsp;<i class="fas fa-home"></i>&nbsp;<{$smarty.const.THEME_HOME}></a> </div>
-	
-<{foreach item=menu from = $block}> 
+<{assign var=count value=0}>
+<{foreach item=menu from=$block}> 
+
 	<{if $menu.level == 0}> 
 		<{if $menu.hassub}> 
-		
+		<{assign var=count value=$count+1}>
 			<!--Collasped Menu -->
-			<a class="nav-link collapsed<{if $menu.selected|default:false}> active<{/if}>" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+			<a class="nav-link collapsed<{if $menu.selected|default:false}> active<{/if}>" href="#" data-toggle="collapse" data-target="#collapseLayouts-<{$count}>" aria-expanded="false" aria-controls="collapseLayouts-<{$count}>">
 			<div class="sb-nav-link-icon">
 			<{if $menu.image}><i class="<{$menu.image}>"></i><{else}><i class="fa <{if $menu.selected|default:false}>fa-check-circle<{else}>fa-cube<{/if}>"></i><{/if}></div><{$menu.title}> 
 			<div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -29,7 +30,7 @@
 	<{else}> 
 	
 		<!--Sub Menu -->
-		<div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+		<div class="collapse" id="collapseLayouts-<{$count}>" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
 			<nav class="sb-sidenav-menu-nested nav">
 				<a class="nav-link<{if $menu.selected|default:false}> active<{/if}>" href="<{$menu.link}>" target="<{$menu.target}>" alt="<{$menu.alt_title}>" title="<{$menu.alt_title}>"><{$menu.title}></a>
 			</nav>
