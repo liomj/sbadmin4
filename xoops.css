@@ -120,6 +120,18 @@ div.jGrowl div.jGrowl-closer {
     float: left;
 }
 
+/* Avatar */
+
+.avatar-circle {
+    background: #006feb;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+	font-weight:bold;	
+}
+
+
 .clearfix:after, form:after {
     content: ".";
     display: block;
