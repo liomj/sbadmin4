@@ -1,4 +1,4 @@
-SBAdmin Bootstrap 4 template by [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/) ported to work and powered with [XOOPS CMS](https://www.xoops.org/) as a frontend theme
+SBAdmin4 Bootstrap 4 template by [Start Bootstrap - SB Admin](https://startbootstrap.com/templates/sb-admin/) ported to work and powered with [XOOPS CMS](https://www.xoops.org/) as a frontend theme
 
 ## Features
 A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in building intranet, web apps and dashboards
@@ -14,9 +14,9 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 
 1. To download from GitHub, you should navigate to the top level of the project and then a green "Code" download button will be visible on the right. 
 2. Choose the Download ZIP option from the Code pull-down menu. That ZIP file will contain the entire theme
-3. Your download may have a folder inside a folder when you uncompress the files (eg: sbadmin-main\sbadmin-main)
-4. Rename the subfolder sbadmin-main to sbadmin and move it to your XOOPS themes folder www.yoursite.com/themes/
-5. Go to System Admin->Preferences-> System Options -> General Settings, and make sbadmin as your Default Theme. 
+3. Your download may have a folder inside a folder when you uncompress the files (eg: sbadmin4-main\sbadmin4-main)
+4. Rename the subfolder sbadmin4-main to sbadmin4 and move it to your XOOPS themes folder www.yoursite.com/themes/
+5. Go to System Admin->Preferences-> System Options -> General Settings, and make sbadmin4 as your Default Theme. 
 
 ## Menu Control (Support for MyMenus Module)
 
@@ -39,7 +39,7 @@ A Bootstrap 4 XOOPS Theme with minimal custom styling. Suitable theme in buildin
 	
 	b. Display Method —> Assign to template
 	
-	c. Unique ID —> sbadmin
+	c. Unique ID —> sbadmin4
 	
 	d. The above is the recommended by My Menu module. After the settings, you can control the site menu using My Menu module.
 	

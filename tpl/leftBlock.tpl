@@ -25,8 +25,8 @@
         <div class="sb-sidenav-menu">
             <div class="nav text-justify px-2">
 			
-				<{if $xoops_menu_sbadmin}>
-					<{$xoops_menu_sbadmin}>
+				<{if $xoops_menu_sbadmin4}>
+					<{$xoops_menu_sbadmin4}>
 				<{else}>
 					<a class="nav-link<{if !$menu.selected|default:false}> active<{/if}>" href="<{xoAppUrl }>" title="<{$smarty.const.THEME_HOME}>">
 					<div class="sb-nav-link-icon">&nbsp;<i class="fas fa-home"></i>&nbsp;<{$smarty.const.THEME_HOME}></a> </div>
