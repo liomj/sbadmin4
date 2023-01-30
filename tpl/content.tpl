@@ -59,11 +59,13 @@
 	<{includeq file="$theme_name/tpl/rightBlock.tpl"}> 
 	<{if $xoops_contents}>
     <div class="container-fluid">
+		<{if $xoops_page != "index"}>
 		<div class="card-header">
             <{if $xoops_pagetitle !=''}>
             <h4 class="mt-2"><{$xoops_pagetitle}></h4>
             <{/if}>
         </div>
+		<{/if}>
         <div class="card-body">
             <p class="mb-0">
                 <{$xoops_contents}>
